@@ -64,7 +64,7 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: center center/cover url('/photos/background.jpg');
+    background: center center/cover url('../photos/background.jpg');
     height: 90vh;
     width: 100%;
     color: black;
