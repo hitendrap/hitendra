@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Roboto&display=swap');
+
+*{
+    margin: 0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    scroll-behavior: smooth;
+    font-family: 'Inconsolata', monospace;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: space-between;
+    background-color: black;    
+}
+
+.left{
+    display: flex;
+    margin-left: 10px;
+}
+
+.left img{
+    margin: 2px 0px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.right{
+    position: sticky;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 10px;
+}
+
+.right li{
+    list-style: none;
+    margin: 10px;
+
+}
+
+.right li a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+
+.right li a:hover{
+    color: green;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: center center/cover url('/photos/background.jpg');
+    height: 90vh;
+    width: 100%;
+    color: black;
+}
+
+.box{
+    margin: top 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box img{
+    margin-top: 30px;
+    height: 550px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.hittu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.abouth{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px 10px;
+    height: 250px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(199, 199, 199);
+}
+
+.abouth ul li{
+    list-style: none;
+    color: black;
+    font-size: 20px;
+    margin: 5px 5px;
+}
+
+.abouth ul h1{
+    color: black;
+    font-size: 30px;
+}
+
+.smily{
+    font-size: 80px;
+}
+
+
+.Projects{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+}
+
+.abc{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px 10px;
+    height: 250px;
+    width: 300px;
+    align-items: center;
+    background: rgb(199, 199, 199);
+    justify-content: center;
+}
+
+
+
+.abc p{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.education{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 20px 10px;
+    animation: counter 4s infinite 1 forwards ease-in;
+}
+
+.A10th, .A12th, .clg{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px 10px;
+    height: 250px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(199, 199, 199);
+}
+
+.A10th ul h3, .A12th ul h3, .clg ul h3{
+    font-size: 25px;
+}
+
+.A10th ul li, .A12th ul li, .clg ul li{
+    font-size: larger;
+    margin: 5px 0px;
+}
+
+.A10th ul, .A12th ul, .clg ul{
+    list-style: none;
+}
+
+.certification{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 5px 5px;
+    text-align: left;
+    padding: 50px  30px;
+    background: rgb(199, 199, 199);
+    word-break: break-all;
+}
+
+.certification li{
+    font-size: larger;
+    list-style: none;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.certification a{
+    text-decoration: none;
+    text-align: left;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    margin: 0%;
+    background-color: black;
+}
+
+.abcd{
+    display: flex;
+    margin: 10px 35px;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.abcd a{
+    margin: 10px 0px;
+}
+
+.abcd a:hover{
+    color: white;
+}
+
+.abcd a:focus{
+    color: white;
+}
+
+.abcde{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin: 5px;
+    width: 100%;
+}
