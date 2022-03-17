@@ -1,6 +1,8 @@
 .right{
     flex-direction: column;
     background-color: black;
+    word-break: break-all;
+    text-align: center;
 }
 
 .navbar{
