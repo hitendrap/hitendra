@@ -1,4 +1,7 @@
 hitendra parmar 
+
 computer science and engineering student 
-parul uninversity student 
+
+Blockchain Developer
+
 contact: hitendrap130@gmail.com
